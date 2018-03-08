@@ -1,0 +1,21 @@
+{
+  "name": "topicdeck-site",
+  "version": "1.0.0",
+  "description": "Topicdeck site",
+  "main": "index.js",
+  "scripts": {
+    "alias": "now alias --token=$NOW_TOKEN",
+    "deploy": "NOW_DEPLOY_URL=$(now --token $NOW_TOKEN --npm)",
+    "now-start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "topicdeck"
+  ],
+  "author": "Paul Kinlan",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "now": "^10.1.4",
+    "topicdeck": "0.0.5"
+  }
+}
