@@ -32,6 +32,11 @@
       "feedUrl": "https://9to5google.com/guides/progressive-web-apps/feed/"
     },
     {
+      "name": "Stack Overflow",
+      "href": "https://stackoverflow.com/questions/tagged/progressive-web-apps",
+      "feedUrl": "https://stackoverflow.com/feeds/tag?tagnames=progressive-web-apps&sort=newest"
+    },
+    {
       "name": "Paul Thurrot",
       "href": "https://www.thurrott.com/tag/progressive-web-apps",
       "feedUrl": "https://www.thurrott.com/tag/progressive-web-apps/feed"
