@@ -27,6 +27,11 @@
       "feedUrl": "https://www.pwastats.com/feed.xml"
     },
     {
+      "name": "9to5Google",
+      "href": "https://9to5google.com/guides/progressive-web-apps/",
+      "feedUrl": "https://9to5google.com/guides/progressive-web-apps/feed/"
+    },
+    {
       "name": "Paul Thurrot",
       "href": "https://www.thurrott.com/tag/progressive-web-apps",
       "feedUrl": "https://www.thurrott.com/tag/progressive-web-apps/feed"
