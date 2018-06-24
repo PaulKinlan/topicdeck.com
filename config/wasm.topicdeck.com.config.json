@@ -27,6 +27,11 @@
       "feedUrl": "https://hacks.mozilla.org/category/webassembly/feed/"
     },
     {
+      "name": "WASM Weekly",
+      "href": "http://wasmweekly.news/",
+      "feedUrl": "http://wasmweekly.news/feed.xml"
+    },
+    {
       "name": "InfoQ",
       "href": "https://www.infoq.com/WebAssembly/news/",
       "feedUrl": "https://www.infoq.com/feed/WebAssembly/news"
