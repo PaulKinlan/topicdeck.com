@@ -16,6 +16,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "now": "^10.2.2",
-    "topicdeck": "0.0.10"
+    "topicdeck": "0.0.11"
   }
 }
