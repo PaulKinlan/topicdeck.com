@@ -4,7 +4,11 @@
   "origin": "http://127.0.0.1:8080",
   "feedUrl": "http://127.0.0.1:8080/all.rss",
   "theme": {
-    "backgroundColor": "#ff4411"
+    "backgroundColor": "#ff4411",
+    "themeColor": "#aa00ff"
+  },
+  "content": {
+    "allTitle": "All"
   },
   "site": {
     "googleAnalytics": "UA-111516552-1",

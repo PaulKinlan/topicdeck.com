@@ -4,7 +4,11 @@
   "origin": "https://pwa.topicdeck.com",
   "feedUrl": "https://pwa.topicdeck.com/all.rss",
   "theme": {
-    "backgroundColor": "#aa00ff"
+    "backgroundColor": "#aa00ff",
+    "themeColor": "#aa00ff"
+  },
+  "content": {
+    "allTitle": "All"
   },
   "site": {
     "googleAnalytics": "UA-111516552-5",
