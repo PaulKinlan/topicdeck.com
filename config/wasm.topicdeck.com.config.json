@@ -31,6 +31,11 @@
       "feedUrl": "https://hacks.mozilla.org/category/webassembly/feed/"
     },
     {
+      "name": "Awesome Wasm",
+      "href": "https://github.com/mbasso/awesome-wasm/",
+      "feedUrl": "https://github.com/mbasso/awesome-wasm/commits/master.atom"
+    },
+    {
       "name": "WASM Weekly",
       "href": "http://wasmweekly.news/",
       "feedUrl": "http://wasmweekly.news/feed.xml"
