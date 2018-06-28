@@ -31,6 +31,11 @@
       "feedUrl": "https://www.pwastats.com/feed.xml"
     },
     {
+      "name": "PWA Tips",
+      "href": "https://pwa.tips/",
+      "feedUrl": "https://pwa.tips/feed.xml"
+    },
+    {
       "name": "9to5Google",
       "href": "https://9to5google.com/guides/progressive-web-apps/",
       "feedUrl": "https://9to5google.com/guides/progressive-web-apps/feed/"
