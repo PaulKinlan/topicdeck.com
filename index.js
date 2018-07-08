@@ -22,7 +22,7 @@ const feedFetcher = new FeedFetcher(fetchInterval, __dirname + '/config/');
 const server = new Server({
   assetPathBase: `node_modules/topicdeck/dist/server/`,
   dataPath: `${__dirname}/config/`,
-  overridePathBase: `${__dirname}/public/`
+  overridePathBase: `${__dirname}/`
 }, feedFetcher);
 
 server.start(8080);
