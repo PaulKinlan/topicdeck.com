@@ -18,7 +18,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "now": "^10.2.2",
-    "topicdeck": "0.0.18"
+    "topicdeck": "0.0.19"
   },
   "engines": {
     "node": "10.6.0"
