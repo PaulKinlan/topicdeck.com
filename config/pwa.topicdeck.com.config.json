@@ -18,7 +18,7 @@
     {
       "name": "Latest PWA",
       "href": "https://pwa-directory.appspot.com/",
-      "feedUrl": "https://pwa-directory.appspot.com/api/pwa/?format=rss&limit=100"
+      "feedUrl": "https://pwa-directory.appspot.com/api/pwa/?format=rss&limit=20"
     },
     {
       "name": "Medium",
