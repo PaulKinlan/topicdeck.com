@@ -16,14 +16,9 @@
   },
   "columns": [
     {
-      "name": "PWA",
-      "href": "https://pwa.topicdeck.com/",
-      "feedUrl": "https://pwa.topicdeck.com/all.rss"
-    },
-    {
-      "name": "WASM",
-      "href": "https://wasm.topicdeck.com/",
-      "feedUrl": "https://wasm.topicdeck.com/all.rss"
+      "name": "CSS",
+      "href": "https://css.topicdeck.com/",
+      "feedUrl": "https://css.topicdeck.com/all.rss"
     },
     {
       "name": "JavaScript",
@@ -34,6 +29,16 @@
       "name": "Web Development (Medium)",
       "href": "https://medium.com/tag/web-development",
       "feedUrl": "https://medium.com/feed/tag/web-development"
+    },
+    {
+      "name": "PWA",
+      "href": "https://pwa.topicdeck.com/",
+      "feedUrl": "https://pwa.topicdeck.com/all.rss"
+    },
+    {
+      "name": "WASM",
+      "href": "https://wasm.topicdeck.com/",
+      "feedUrl": "https://wasm.topicdeck.com/all.rss"
     }
   ]
 }
