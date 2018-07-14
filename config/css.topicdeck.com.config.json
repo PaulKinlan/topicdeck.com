@@ -26,11 +26,6 @@
       "feedUrl": "http://feeds.feedburner.com/CssTricks"
     },
     {
-      "name": "Current CSS Spec Work",
-      "href": "https://www.w3.org/Style/CSS/current-work.rss",
-      "feedUrl": "https://www.w3.org/Style/CSS/current-work.rss"
-    },
-    {
       "name": "CSS Wizardry",
       "href": "https://csswizardry.com",
       "feedUrl": "http://feeds.feedburner.com/csswizardry"
