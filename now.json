@@ -1,7 +1,10 @@
 {
   "name": "topicdeck",
   "alias": [
+    "topicdeck.com",
     "pwa.topicdeck.com",
-    "wasm.topicdeck.com"
+    "wasm.topicdeck.com",
+    "javascript.topicdeck.com",
+    "webdev.topicdeck.com"
   ]
 }
