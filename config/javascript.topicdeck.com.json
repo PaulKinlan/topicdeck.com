@@ -26,6 +26,11 @@
       "feedUrl": "https://github.com/Microsoft/ChakraCore/commits/master.atom"
     },
     {
+      "name": "SpiderMonkey",
+      "href": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey",
+      "feedUrl": "https://groups.google.com/forum/feed/mozilla.dev.tech.js-engine/topics/rss.xml?num=15"
+    },
+    {
       "name": "JavaScript (Medium)",
       "href": "https://medium.com/tag/javascript/",
       "feedUrl": "https://medium.com/feed/tag/javascript"
