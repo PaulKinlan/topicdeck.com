@@ -23,7 +23,7 @@
     {
       "name": "Chrome Releases",
       "href": "https://chromereleases.googleblog.com/",
-      "feedUrl": "https://chromereleases.googleblog.com/feeds/posts/default?alt=rss"
+      "feedUrl": "http://feeds.feedburner.com/GoogleChromeReleases"
     },
     {
       "name": "Paul Kinlan",
