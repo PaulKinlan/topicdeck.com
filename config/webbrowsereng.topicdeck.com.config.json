@@ -24,6 +24,16 @@
       "name": "Firefox Dev",
       "href": "https://firefoxdev.topicdeck.com/",
       "feedUrl": "https://firefoxdev.topicdeck.com/all.rss"
+    },
+    {
+      "name": "Beaker Browser Dev",
+      "href": "https://beakerbrowserdev.topicdeck.com/",
+      "feedUrl": "https://beakerbrowserdev.topicdeck.com/all.rss"
+    },
+    {
+      "name": "WebKit Dev",
+      "href": "https://webkitdev.topicdeck.com/",
+      "feedUrl": "https://webkitdev.topicdeck.com/all.rss"
     }
   ]
 }
