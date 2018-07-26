@@ -39,6 +39,11 @@
       "name": "WASM",
       "href": "https://wasm.topicdeck.com/",
       "feedUrl": "https://wasm.topicdeck.com/all.rss"
+    },
+    {
+      "name": "Web Browser Engineers",
+      "href": "https://webbrowsereng.topicdeck.com/",
+      "feedUrl": "https://webbrowsereng.topicdeck.com/all.rss"
     }
   ]
 }
