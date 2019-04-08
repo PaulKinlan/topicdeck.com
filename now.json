@@ -14,5 +14,14 @@
     "beakerbrowserdev.topdicdeck.com",
     "webkitdev.topicdeck.com"
   ],
-  "builds": [{ "src": "index.js", "use": "@now/node-server", "config": { "maxLambdaSize": "50mb" } }]
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node-server",
+      "config": {
+        "maxLambdaSize": "50mb",
+        "includeFiles": ["config/*.json", "node_modules/topicdeck/dist/server/**/*"]
+      }
+    }
+  ]
 }
