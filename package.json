@@ -1,14 +1,11 @@
 {
   "name": "topicdeck-site",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Topicdeck site",
   "main": "index.js",
   "scripts": {
-    "alias": "now alias --token=$NOW_TOKEN",
-    "deploy": "NOW_DEPLOY_URL=$(now --token $NOW_TOKEN --npm)",
     "build:serviceworker": "node node_modules/topicdeck/tools/producemanifest.js --inputpath=./node_modules/topicdeck/dist/server/public/ --overridepath=./public/ --input=node_modules/topicdeck/dist/server/public/sw.src.js --output=./public/sw.js",
     "now-build": "npm run build:serviceworker",
-    "now-start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "name": "topicdeck",
   "alias": [
     "topicdeck.com",
@@ -12,5 +13,6 @@
     "firefoxdev.topicdeck.com",
     "beakerbrowserdev.topdicdeck.com",
     "webkitdev.topicdeck.com"
-  ]
+  ],
+  "builds": [{ "src": "index.js", "use": "@now/node-server" }]
 }
