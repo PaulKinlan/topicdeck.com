@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:serviceworker": "node node_modules/topicdeck/tools/producemanifest.js --inputpath=./node_modules/topicdeck/dist/server/public/ --overridepath=./public/ --input=node_modules/topicdeck/dist/server/public/sw.src.js --output=./public/sw.js",
-    "now-build": "npm run build:serviceworker",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "now-build": "npm run build:serviceworker"
   },
   "keywords": [
     "topicdeck"
@@ -14,7 +13,7 @@
   "author": "Paul Kinlan",
   "license": "Apache-2.0",
   "dependencies": {
-    "now": "^10.2.2",
+    "now": "^15.0.0",
     "topicdeck": "0.0.26"
   }
 }
