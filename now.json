@@ -20,7 +20,7 @@
       "use": "@now/node-server",
       "config": {
         "maxLambdaSize": "50mb",
-        "includeFiles": ["config/*.json", "node_modules/topicdeck/dist/server/**/*"]
+        "includeFiles": ["config/*.json", "public/**/*", "node_modules/topicdeck/dist/server/**/*"]
       }
     }
   ]
