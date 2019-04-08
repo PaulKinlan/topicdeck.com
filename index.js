@@ -17,12 +17,12 @@
 const {Server, FeedFetcher} = require('topicdeck');
 
 const fetchInterval = 60 * 60 * 1000;
-const feedFetcher = new FeedFetcher(fetchInterval, __dirname + '/config/');
+const feedFetcher = new FeedFetcher(fetchInterval, './config/');
 
 const server = new Server({
   assetPathBase: `node_modules/topicdeck/dist/server/`,
-  dataPath: `${__dirname}/config/`,
-  overridePathBase: `${__dirname}/`
+  dataPath: `./config/`,
+  overridePathBase: `./`
 }, feedFetcher);
 
 server.start(8080);
