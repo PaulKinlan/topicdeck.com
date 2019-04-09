@@ -21,7 +21,7 @@ const fetchInterval = 60 * 60 * 1000;
 const feedFetcher = new FeedFetcher(fetchInterval, path.join(__dirname, 'config'));
 
 const server = new Server({
-  assetPathBase:  path.join(__dirname, 'topicdeck/server/'),
+  assetPathBase:  path.join(__dirname, 'topicdeck', 'server'),
   dataPath: path.join(__dirname, 'config'),
   overridePathBase: path.join(__dirname, '.')
 }, feedFetcher);
