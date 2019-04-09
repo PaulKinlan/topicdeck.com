@@ -1,11 +1,12 @@
 {
   "name": "topicdeck-site",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Topicdeck site",
   "main": "index.js",
   "scripts": {
     "build:serviceworker": "node node_modules/topicdeck/tools/producemanifest.js --inputpath=./node_modules/topicdeck/dist/server/public/ --overridepath=./public/ --input=node_modules/topicdeck/dist/server/public/sw.src.js --output=./public/sw.js",
-    "now-build": "npm run build:serviceworker"
+    "build:copy-assets": "mkdir -p topicdeck/dist/server && cp -R node_modules/topicdeck/dist/server/ topicdeck/dist/server/",
+    "now-build": "npm run build:copy-assets && npm run build:serviceworker"
   },
   "keywords": [
     "topicdeck"
