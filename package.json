@@ -4,9 +4,10 @@
   "description": "Topicdeck site",
   "main": "index.js",
   "scripts": {
-    "build:serviceworker": "node node_modules/topicdeck/tools/producemanifest.js --inputpath=topicdeck/dist/server/public/ --overridepath=./public/ --input=topicdeck/dist/server/public/sw.src.js --output=./public/sw.js",
-    "build:copy-assets": "mkdir -p topicdeck/dist/server && cp -R node_modules/topicdeck/dist/server/* topicdeck/dist/server/",
-    "now-build": "npm run build:copy-assets && npm run build:serviceworker"
+    "build:serviceworker": "node node_modules/topicdeck/tools/producemanifest.js --inputpath=topicdeck/server/public/ --overridepath=./public/ --input=topicdeck/server/public/sw.src.js --output=./public/sw.js",
+    "build:copy-assets": "mkdir -p topicdeck/server && cp -R node_modules/topicdeck/dist/server/* topicdeck/server/",
+    "now-build": "npm run build:copy-assets && npm run build:serviceworker",
+    "build": "npm run now-build"
   },
   "keywords": [
     "topicdeck"
