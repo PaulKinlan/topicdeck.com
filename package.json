@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:serviceworker": "node node_modules/topicdeck/tools/producemanifest.js --inputpath=topicdeck/server/public/ --overridepath=./public/ --input=topicdeck/server/public/sw.src.js --output=./public/sw.js",
-    "build:copy-assets": "mkdir -p topicdeck/server && cp -R node_modules/topicdeck/dist/server/* topicdeck/server/",
+    "build:copy-assets": "mkdir -p topicdeck/server/public && cp -R node_modules/topicdeck/dist/server/public* topicdeck/server/public",
     "now-build": "npm run build:copy-assets && npm run build:serviceworker",
     "build": "npm run now-build"
   },
@@ -16,6 +16,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "now": "^15.0.0",
-    "topicdeck": "0.0.30"
+    "topicdeck": "0.0.31"
   }
 }
