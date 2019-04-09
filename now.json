@@ -15,6 +15,7 @@
     "webkitdev.topicdeck.com"
   ],
   "routes": [
+    { "src": "/sw.js", "dest": "/topicdeck/server/public/sw.js" },
     { "src": "/styles/(.*)", "dest": "/topicdeck/server/public/styles/$1" },
     { "src": "/scripts/(.*)", "dest": "/topicdeck/server/public/scripts/$1" },
     { "src": "/images/(.*)", "dest": "/topicdeck/server/public/images/$1" },
