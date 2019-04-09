@@ -18,7 +18,8 @@
     { "src": "/styles/(.*)", "dest": "/topicdeck/server/public/styles/$1" },
     { "src": "/scripts/(.*)", "dest": "/topicdeck/server/public/scripts/$1" },
     { "src": "/images/(.*)", "dest": "/topicdeck/server/public/images/$1" },
-    { "src": "/(.*)", "dest": "/$1" }
+    { "src": "/proxy", "dest": "index.js" },
+    { "src": "/(.*)", "dest": "index.js" }
   ],
   "builds": [
     {
