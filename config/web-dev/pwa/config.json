@@ -1,8 +1,8 @@
 {
   "title": "Progressive Web Apps",
   "description": "The latest news and updates from around the web about PWA", 
-  "origin": "https://topicdeck.com/pwa/",
-  "feedUrl": "https://topicdeck.com/pwa/all.rss",
+  "origin": "https://topicdeck.com/web-dev/pwa/",
+  "feedUrl": "https://topicdeck.com/web-dev/pwa/all.rss",
   "theme": {
     "backgroundColor": "#aa00ff",
     "themeColor": "#aa00ff"
@@ -24,11 +24,6 @@
       "name": "Medium",
       "href": "https://medium.com/tag/progressive-web-app",
       "feedUrl": "https://medium.com/feed/tag/progressive-web-app"
-    },
-    {
-      "name": "PWA Tips",
-      "href": "https://pwa.tips/",
-      "feedUrl": "https://pwa.tips/feed.xml"
     },
     {
       "name": "9to5Google",

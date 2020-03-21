@@ -32,13 +32,13 @@
     },
     {
       "name": "PWA",
-      "href": "https://topicdeck.com/pwa/",
-      "feedUrl": "https://topicdeck.com/pwa/all.rss"
+      "href": "https://topicdeck.com/web-dev/pwa/",
+      "feedUrl": "https://topicdeck.com/web-dev/pwa/all.rss"
     },
     {
       "name": "WASM",
       "href": "https://topicdeck.com/web-dev/wasm/",
-      "feedUrl": "https://topicdeck.com/web-dev/all.rss"
+      "feedUrl": "https://topicdeck.com/web-dev/wasm/all.rss"
     },
     {
       "name": "Web Browser Engineers",

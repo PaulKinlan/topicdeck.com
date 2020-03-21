@@ -1,8 +1,8 @@
 {
   "title": "Web Assembly",
   "description": "The latest news and updates from around the web about Web Assembly", 
-  "origin": "https://topicdeck.com/wasm/",
-  "feedUrl": "https://topicdeck.com/wasm/all.rss",
+  "origin": "https://topicdeck.com/web-dev/wasm/",
+  "feedUrl": "https://topicdeck.com/web-dev/wasm/all.rss",
   "theme": {
     "backgroundColor": "#654ff0",
     "themeColor": "#654ff0"
@@ -36,7 +36,6 @@
       "feedUrl": "https://github.com/mbasso/awesome-wasm/commits/master.atom"
     },
     {
-    
       "name": "WASM Rocks",
       "href": " http://www.wasmrocks.com/category/1",
       "feedUrl": "http://www.wasmrocks.com/category/1.rss"
