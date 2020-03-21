@@ -1,8 +1,8 @@
 {
   "title": "Web Dev",
   "description": "The latest news and updates from around the web about Web Development", 
-  "origin": "https://webdev.topicdeck.com",
-  "feedUrl": "https://webdev.topicdeck.com/all.rss",
+  "origin": "https://topicdeck.com/web-dev/",
+  "feedUrl": "https://topicdeck.com/web-dev/all.rss",
   "theme": {
     "backgroundColor": "#654ff0",
     "themeColor": "#654ff0"
@@ -17,13 +17,13 @@
   "columns": [
     {
       "name": "CSS",
-      "href": "https://css.topicdeck.com/",
-      "feedUrl": "https://css.topicdeck.com/all.rss"
+      "href": "https://topicdeck.com/web-dev/css",
+      "feedUrl": "https://topicdeck.com/web-dev/css/all.rss"
     },
     {
       "name": "JavaScript",
-      "href": "https://javascript.topicdeck.com/",
-      "feedUrl": "https://javascript.topicdeck.com/all.rss"
+      "href": "https://topicdeck.com/web-dev/javascript/",
+      "feedUrl": "https://topicdeck.com/web-dev/javascript/all.rss"
     },
     {
       "name": "Web Development (Medium)",
@@ -32,18 +32,18 @@
     },
     {
       "name": "PWA",
-      "href": "https://pwa.topicdeck.com/",
-      "feedUrl": "https://pwa.topicdeck.com/all.rss"
+      "href": "https://topicdeck.com/pwa/",
+      "feedUrl": "https://topicdeck.com/pwa/all.rss"
     },
     {
       "name": "WASM",
-      "href": "https://wasm.topicdeck.com/",
-      "feedUrl": "https://wasm.topicdeck.com/all.rss"
+      "href": "https://topicdeck.com/web-dev/wasm/",
+      "feedUrl": "https://topicdeck.com/web-dev/all.rss"
     },
     {
       "name": "Web Browser Engineers",
-      "href": "https://webbrowsereng.topicdeck.com/",
-      "feedUrl": "https://webbrowsereng.topicdeck.com/all.rss"
+      "href": "https://topicdeck.com/web-dev/browser-eng/",
+      "feedUrl": "https://topicdeck.com/web-dev/browser-eng/all.rss"
     }
   ]
 }

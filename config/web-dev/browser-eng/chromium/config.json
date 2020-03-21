@@ -1,8 +1,8 @@
 {
   "title": "Chromium Dev",
   "description": "The latest news and updates from the Google Chrome team", 
-  "origin": "https://chromiumdev.topicdeck.com",
-  "feedUrl": "https://chromiumdev.topicdeck.com/all.rss",
+  "origin": "https://topicdeck.com/web-dev/browser-eng/chromium/",
+  "feedUrl": "https://topicdeck.com/web-dev/browser-eng/chromium/all.rss",
   "theme": {
     "backgroundColor": "#654ff0",
     "themeColor": "#654ff0"

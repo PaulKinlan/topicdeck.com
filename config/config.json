@@ -1,7 +1,7 @@
 {
   "title": "Topic Deck",
   "description": "The latest news and updates from around the web", 
-  "origin": "https://topicdeck.com",
+  "origin": "https://topicdeck.com/",
   "feedUrl": "https://topicdeck.com/all.rss",
   "theme": {
     "backgroundColor": "#654ff0",
@@ -17,8 +17,8 @@
   "columns": [
     {
       "name": "Web Development",
-      "href": "https://webdev.topicdeck.com",
-      "feedUrl": "https://webdev.topicdeck.com/all.rss"
+      "href": "https://topicdeck.com/webdev/",
+      "feedUrl": "https://topicdeck.com/webdev/all.rss"
     }
   ]
 }

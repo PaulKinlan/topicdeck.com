@@ -1,8 +1,8 @@
 {
   "title": "JavaScript",
   "description": "The latest news and updates from around the web about JavaScript", 
-  "origin": "https://javascript.topicdeck.com",
-  "feedUrl": "https://javascript.topicdeck.com/all.rss",
+  "origin": "https://topicdeck.com/javascript/",
+  "feedUrl": "https://topicdeck.com/javascript/all.rss",
   "theme": {
     "backgroundColor": "#654ff0",
     "themeColor": "#654ff0"

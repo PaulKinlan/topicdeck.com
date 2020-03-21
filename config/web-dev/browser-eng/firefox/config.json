@@ -1,8 +1,8 @@
 {
   "title": "Firefox Dev",
   "description": "The latest news and updates from the Firefox team", 
-  "origin": "https://firefoxdev.topicdeck.com",
-  "feedUrl": "https://firefoxdev.topicdeck.com/all.rss",
+  "origin": "https://topicdeck.com/web-dev/browser-eng/firefox/",
+  "feedUrl": "https://topicdeck.com/web-dev/browser-eng/firefox/all.rss",
   "theme": {
     "backgroundColor": "#654ff0",
     "themeColor": "#654ff0"

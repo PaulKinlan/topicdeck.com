@@ -1,8 +1,8 @@
 {
   "title": "Web Assembly",
   "description": "The latest news and updates from around the web about Web Assembly", 
-  "origin": "https://wasm.topicdeck.com",
-  "feedUrl": "https://wasm.topicdeck.com/all.rss",
+  "origin": "https://topicdeck.com/wasm/",
+  "feedUrl": "https://topicdeck.com/wasm/all.rss",
   "theme": {
     "backgroundColor": "#654ff0",
     "themeColor": "#654ff0"
