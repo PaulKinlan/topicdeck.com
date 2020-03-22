@@ -18,7 +18,7 @@ const {Server, FeedFetcher} = require('topicdeck');
 const path = require('path');
 
 const fetchInterval = 60 * 60 * 1000;
-const feedFetcher = new FeedFetcher(fetchInterval, path.join(__dirname, 'config'));
+const feedFetcher = new FeedFetcher(fetchInterval, path.join(__dirname, 'config/'));
 
 const server = new Server({
   assetPathBase:  path.join(__dirname, 'topicdeck', 'server'),
