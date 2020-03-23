@@ -1,0 +1,24 @@
+{
+  "title": "Communities",
+  "description": "The latest news and updates from around the web about web development communities",
+  "origin": "https://topicdeck.com/web-dev/communities/",
+  "feedUrl": "https://topicdeck.com/web-dev/communities/all.rss",
+  "theme": {
+    "backgroundColor": "#654ff0",
+    "themeColor": "#654ff0"
+  },
+  "content": {
+    "allTitle": "All"
+  },
+  "site": {
+    "googleAnalytics": "UA-111516552-5",
+    "searchConsole": "SrbXKyTScp_FwejgSKpQuqy7agpUaCZvaRqARGmOI2o"
+  },
+  "columns": [
+    {
+      "name": "GDE's",
+      "href": "https://topicdeck.com/web-dev/communities/gde/",
+      "feedUrl": "https://topicdeck.com/web-dev/communities/gde/all.rss"
+    }
+  ]
+}
