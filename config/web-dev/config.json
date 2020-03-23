@@ -44,6 +44,11 @@
       "name": "Web Browser Engineers",
       "href": "https://topicdeck.com/web-dev/browser-eng/",
       "feedUrl": "https://topicdeck.com/web-dev/browser-eng/all.rss"
+    },
+    {
+      "name": "Communities",
+      "href": "https://topicdeck.com/web-dev/communities/",
+      "feedUrl": "https://topicdeck.com/web-dev/communities/all.rss"
     }
   ]
 }
