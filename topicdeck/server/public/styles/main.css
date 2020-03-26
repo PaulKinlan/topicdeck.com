@@ -35,6 +35,13 @@ body>header span a, body>header span a:visited {
   color:black;
 }
 
+body>header span a, body>header span a.rss img {
+  color:black;
+  vertical-align: bottom;
+  width: 1.2em;
+  height: 1.2em;
+}
+
 main {
   display: flex;
   /*display: grid;*/
