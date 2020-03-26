@@ -1,6 +1,6 @@
 {
   "name": "topicdeck-site",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Topicdeck site",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
   "author": "Paul Kinlan",
   "license": "Apache-2.0",
   "dependencies": {
-    "topicdeck": "^0.1.5"
+    "topicdeck": "^0.1.9"
   }
 }
