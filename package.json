@@ -20,6 +20,6 @@
   "author": "Paul Kinlan",
   "license": "Apache-2.0",
   "dependencies": {
-    "topicdeck": "^0.1.9"
+    "topicdeck": "^0.1.10"
   }
 }
