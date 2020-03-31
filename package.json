@@ -1,14 +1,14 @@
 {
   "name": "topicdeck-site",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Topicdeck site",
   "main": "index.js",
   "scripts": {
     "build:serviceworker": "node node_modules/topicdeck/tools/producemanifest.js --inputpath=topicdeck/server/public/ --overridepath=./public/ --input=topicdeck/server/public/sw.src.js --output=./public/sw.js",
     "build:copy-assets": "mkdir -p topicdeck/server/public && cp -R node_modules/topicdeck/dist/server/public/* topicdeck/server/public && cp -R public/* topicdeck/server/public",
-    "now-build": "npm run build:copy-assets && npm run build:serviceworker",
     "gcp-build": "npm run build:copy-assets && npm run build:serviceworker",
-    "build": "npm run now-build",
+    "validate": "node validate.js",
+    "build": "npm run gcp-build",
     "start": "node index.js"
   },
   "keywords": [

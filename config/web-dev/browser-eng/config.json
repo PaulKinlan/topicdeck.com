@@ -21,6 +21,11 @@
       "feedUrl": "https://topicdeck.com/web-dev/browser-eng/chromium/all.rss"
     },
     {
+      "name": "MS Edge Dev",
+      "href": "https://topicdeck.com/web-dev/browser-eng/edge/",
+      "feedUrl": "https://topicdeck.com/web-dev/browser-eng/edge/all.rss"
+    },
+    {
       "name": "Firefox Dev",
       "href": "https://topicdeck.com/web-dev/browser-eng/firefox/",
       "feedUrl": "https://topicdeck.com/web-dev/browser-eng/firefox/all.rss"
@@ -29,6 +34,21 @@
       "name": "WebKit Dev",
       "href": "https://topicdeck.com/web-dev/browser-eng/webkit/",
       "feedUrl": "https://topicdeck.com/web-dev/browser-eng/webkit/all.rss"
+    },
+    {
+      "name": "Opera",
+      "href": "https://blogs.opera.com/news",
+      "feedUrl": "https://blogs.opera.com/news/feed/"
+    },
+    {
+      "name": "Brave",
+      "href": "https://topicdeck.com/web-dev/browser-eng/brave/",
+      "feedUrl": "https://topicdeck.com/web-dev/browser-eng/brave/all.rss"
+    },
+    {
+      "name": "Specs",
+      "href": "https://topicdeck.com/web-dev/browser-eng/specs/",
+      "feedUrl": "https://topicdeck.com/web-dev/browser-eng/specs/all.rss"
     }
   ]
 }

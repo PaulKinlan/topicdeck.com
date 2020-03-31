@@ -1,0 +1,24 @@
+{
+  "title": "MS Edge",
+  "description": "The latest news and updates from the MS Edge team", 
+  "origin": "https://topicdeck.com/web-dev/browser-eng/edge/",
+  "feedUrl": "https://topicdeck.com/web-dev/browser-eng/edge/all.rss",
+  "theme": {
+    "backgroundColor": "#654ff0",
+    "themeColor": "#654ff0"
+  },
+  "content": {
+    "allTitle": "All"
+  },
+  "site": {
+    "googleAnalytics": "UA-111516552-5",
+    "searchConsole": "SrbXKyTScp_FwejgSKpQuqy7agpUaCZvaRqARGmOI2o"
+  },
+  "columns": [
+    {
+      "name": "MS Edge Blog",
+      "href": "https://blogs.windows.com/msedgedev",
+      "feedUrl": "https://blogs.windows.com/msedgedev/feed/"
+    }
+  ]
+}
