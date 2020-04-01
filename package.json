@@ -20,7 +20,7 @@
   "author": "Paul Kinlan",
   "license": "Apache-2.0",
   "dependencies": {
-    "topicdeck": "^0.1.11"
+    "topicdeck": "^0.1.12"
   },
   "devDependencies": {
     "node-fetch": "^2.6.0"
