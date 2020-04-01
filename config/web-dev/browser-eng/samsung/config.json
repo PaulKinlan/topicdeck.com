@@ -1,0 +1,44 @@
+{
+  "title": "Samsung Eng",
+  "description": "The latest news and updates from the Samsung Engineering team", 
+  "origin": "https://topicdeck.com/web-dev/browser-eng/samsung/",
+  "feedUrl": "https://topicdeck.com/web-dev/browser-eng/samsung/all.rss",
+  "theme": {
+    "backgroundColor": "#654ff0",
+    "themeColor": "#654ff0"
+  },
+  "content": {
+    "allTitle": "All"
+  },
+  "site": {
+    "googleAnalytics": "UA-111516552-5",
+    "searchConsole": "SrbXKyTScp_FwejgSKpQuqy7agpUaCZvaRqARGmOI2o"
+  },
+  "columns": [
+    {
+      "name": "Samsung",
+      "href": "https://medium.com/samsung-internet-dev",
+      "feedUrl": "https://medium.com/feed/samsung-internet-dev"
+    },
+    {
+      "name": "Ada Rose Cannon",
+      "href": "https://medium.com/@Lady_Ada_King",
+      "feedUrl": "https://medium.com/feed/@Lady_Ada_King"
+    },
+    {
+      "name": "Daniel Appelquist",
+      "href": "https://medium.com/@torgo",
+      "feedUrl": "https://medium.com/feed/@torgo"
+    },
+    {
+      "name": "Diego González",
+      "href": "https://medium.com/@diekus",
+      "feedUrl": "https://medium.com/feed/@diekus"
+    },
+    {
+      "name": "Laura Morinigo",
+      "href": "https://medium.com/@thisislala",
+      "feedUrl": "https://medium.com/feed/@thisislala"
+    }
+  ]
+}

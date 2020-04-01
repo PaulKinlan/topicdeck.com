@@ -41,6 +41,11 @@
       "feedUrl": "https://blogs.opera.com/news/feed/"
     },
     {
+      "name": "Samsung Internet",
+      "href": "https://topicdeck.com/web-dev/browser-eng/samsung/",
+      "feedUrl": "https://topicdeck.com/web-dev/browser-eng/samsung/all.rss"
+    },
+    {
       "name": "Brave",
       "href": "https://topicdeck.com/web-dev/browser-eng/brave/",
       "feedUrl": "https://topicdeck.com/web-dev/browser-eng/brave/all.rss"
