@@ -1,6 +1,7 @@
 const fs = require('fs');
+const fetch = require('node-fetch');
 const path = require('path');
-const {DepGraph, DepGraphCycleError} = require('dependency-graph');
+const { DepGraph, DepGraphCycleError } = require('dependency-graph');
 
 const validateFeeds = (feeds) => {
   const feedList = Array.from(feeds.values());
@@ -42,11 +43,38 @@ const validateFeeds = (feeds) => {
   }
 }
 
+const fetchFeed = (url) => {
+  return fetch(url)
+    .then(res => { 
+      console.log(`${url} - ${res.ok}`) 
+    })
+    .catch(err => { 
+      console.error(`${url} - fail ${err}`) 
+    });
+}
+
+const validateUrls = (configs) => {
+  const configList = Array.from(configs.values());
+  const feeds = new Set();
+
+  for (const config of configList) {
+    for (const feed of config.columns) {
+      if (feed.feedUrl.startsWith('https://topicdeck.com/')) continue;
+      feeds.add(feed.feedUrl);
+    }
+  }
+
+  for (const feed of feeds) {
+    console.log('attempt', feed)
+    fetchFeed(feed)
+  }
+}
+
 const loadConfigs = (basePath) => {
   // Dynamically import the config objects
   const feedConfigs = [];
   console.log('loading config files', basePath);
-  const files = fs.readdirSync(basePath, {withFileTypes: true});
+  const files = fs.readdirSync(basePath, { withFileTypes: true });
 
   for (const file of files) {
     const filePath = path.join(basePath, file.name);
@@ -62,4 +90,7 @@ const loadConfigs = (basePath) => {
   return feedConfigs;
 }
 
-validateFeeds(loadConfigs(path.resolve('./config/')));
+
+const configs = loadConfigs(path.resolve('./config/'));
+validateFeeds(configs);
+validateUrls(configs); 
