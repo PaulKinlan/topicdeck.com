@@ -31,11 +31,6 @@
         "feedUrl": "https://blog.getbootstrap.com/feed.xml"
       },
       {
-        "name": "Bootstrap",
-        "href": "http://blog.getbootstrap.com/",
-        "feedUrl": "https://blog.getbootstrap.com/feed.xml"
-      },
-      {
         "name": "NodeJS",
         "href": "https://nodejs.org/en/",
         "feedUrl": "https://nodejs.org/en/feed/blog.xml"
