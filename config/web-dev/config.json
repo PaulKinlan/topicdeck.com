@@ -26,6 +26,11 @@
       "feedUrl": "https://topicdeck.com/web-dev/javascript/all.rss"
     },
     {
+      "name": "Frameworks",
+      "href": "https://topicdeck.com/web-dev/frameworks/",
+      "feedUrl": "https://topicdeck.com/web-dev/frameworks/all.rss"
+    },
+    {
       "name": "Web Development (Medium)",
       "href": "https://medium.com/tag/web-development",
       "feedUrl": "https://medium.com/feed/tag/web-development"
