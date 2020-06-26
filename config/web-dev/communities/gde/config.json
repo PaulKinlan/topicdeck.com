@@ -334,6 +334,11 @@
       "name": "Ahmad Awais",
       "href": "https://AhmadAwais.com",
       "feedUrl": "https://ahmadawais.com/feed/"
+    },
+    {
+      "name": "George Mandis',
+      "href": 'https://george.mand.is",
+      "feedUrl": "https://george.mand.is/feed.xml"
     }
   ]
 }
