@@ -334,6 +334,11 @@
       "name": "Ahmad Awais",
       "href": "https://AhmadAwais.com",
       "feedUrl": "https://ahmadawais.com/feed/"
+    },
+    {
+      "name": "Carlos Azaustre",
+      "href": "https://carlosazaustre.es",
+      "feedUrl": "https://carlosazaustre.es/rss.xml"
     }
   ]
 }
