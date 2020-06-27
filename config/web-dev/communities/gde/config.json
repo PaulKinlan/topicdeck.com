@@ -334,6 +334,11 @@
       "name": "Ahmad Awais",
       "href": "https://AhmadAwais.com",
       "feedUrl": "https://ahmadawais.com/feed/"
+    },
+    {
+      "name": "Beto Muniz",
+      "href": "https://betomuniz.com",
+      "feedUrl": "https://betomuniz.com/blog/feed.xml"
     }
   ]
 }
