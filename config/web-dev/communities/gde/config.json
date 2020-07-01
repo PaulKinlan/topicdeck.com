@@ -334,6 +334,11 @@
       "name": "Ahmad Awais",
       "href": "https://AhmadAwais.com",
       "feedUrl": "https://ahmadawais.com/feed/"
+    },
+    {
+      "name": "Tamas Piros",
+      "href": "https://blog.fullstacktraining.com",
+      "feedUrl": "https://blog.fullstacktraining.com/rss/"
     }
   ]
 }
