@@ -339,6 +339,11 @@
       "name": "Beto Muniz",
       "href": "https://betomuniz.com",
       "feedUrl": "https://betomuniz.com/blog/feed.xml"
+    },
+    {
+      "name": "Tamas Piros",
+      "href": "https://blog.fullstacktraining.com",
+      "feedUrl": "https://blog.fullstacktraining.com/rss/"
     }
   ]
 }
