@@ -339,6 +339,11 @@
       "name": "Carlos Azaustre",
       "href": "https://carlosazaustre.es",
       "feedUrl": "https://carlosazaustre.es/rss.xml"
+    },
+    {
+      "name": "Tamas Piros",
+      "href": "https://blog.fullstacktraining.com",
+      "feedUrl": "https://blog.fullstacktraining.com/rss/"
     }
   ]
 }
