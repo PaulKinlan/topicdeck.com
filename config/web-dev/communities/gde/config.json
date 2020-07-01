@@ -339,6 +339,26 @@
       "name": "Alain Schlesser",
       "href": "https://www.alainschlesser.com",
       "feedUrl": "https://www.alainschlesser.com/feed/"
+    },
+    {
+      "name": "Beto Muniz",
+      "href": "https://betomuniz.com",
+      "feedUrl": "https://betomuniz.com/blog/feed.xml"
+    },
+    {
+      "name": "George Mandis',
+      "href": 'https://george.mand.is",
+      "feedUrl": "https://george.mand.is/feed.xml"
+    },
+    {
+      "name": "Carlos Azaustre",
+      "href": "https://carlosazaustre.es",
+      "feedUrl": "https://carlosazaustre.es/rss.xml"
+    },
+    {
+      "name": "Tamas Piros",
+      "href": "https://blog.fullstacktraining.com",
+      "feedUrl": "https://blog.fullstacktraining.com/rss/"
     }
   ]
 }
