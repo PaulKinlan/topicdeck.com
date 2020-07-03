@@ -16,9 +16,14 @@
   },
   "columns": [
     {
-      "name": "Chomium Blog",
+      "name": "Chromium Blog",
       "href": "https://blog.chromium.org/",
       "feedUrl": "https://blog.chromium.org/feeds/posts/default"
+    },
+    {
+      "name": "Web.dev",
+      "href": "https://web.dev",
+      "feedUrl": "https://web.dev/feed.xml"
     },
     {
       "name": "Chrome Releases",
