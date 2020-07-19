@@ -359,6 +359,11 @@
       "name": "Tamas Piros",
       "href": "https://blog.fullstacktraining.com",
       "feedUrl": "https://blog.fullstacktraining.com/rss/"
+    },
+    {
+      "name": "Ben Ilegbodu",
+      "href": "https://www.benmvp.com/blog/",
+      "feedUrl": "https://www.benmvp.com/blog/rss.xml"
     }
   ]
 }
