@@ -69,6 +69,11 @@
       "name": "Alex Russell (Medium)",
       "href": "https://medium.com/@slightlylate",
       "feedUrl": "https://medium.com/feed/@slightlylate"
+    },
+    {
+      "name": "Sam Thorogood",
+      "href": "https://whistlr.info/",
+      "feedUrl": "https://whistlr.info/rss.xml"
     }
   ]
 }
