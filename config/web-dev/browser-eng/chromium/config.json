@@ -46,6 +46,11 @@
       "feedUrl": "https://jakearchibald.com/posts.rss"
     },
     {
+      "surma": "Surma",
+      "href": "https://surma.dev",
+      "feedUrl": "https://surma.dev/index.xml"
+    },
+    {
       "name": "Web Fundamentals",
       "href": "https://developers.google.com/web/updates",
       "feedUrl": "https://developers.google.com/web/updates/rss.xml"
