@@ -79,6 +79,11 @@
       "name": "Sam Thorogood",
       "href": "https://whistlr.info/",
       "feedUrl": "https://whistlr.info/rss.xml"
+    },
+    {
+      "name": "Jason Miller",
+      "href": "https://jasonformat.com",
+      "feedUrl": "https://jasonformat.com/rss/"
     }
   ]
 }
