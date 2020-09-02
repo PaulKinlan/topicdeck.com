@@ -84,6 +84,11 @@
       "name": "Thomas Steiner",
       "href": "https://blog.tomayac.com/",
       "feedUrl": "https://blog.tomayac.com/feed/feed.xml"
-    }    
+    }, 
+    {
+      "name": "Jason Miller",
+      "href": "https://jasonformat.com",
+      "feedUrl": "https://jasonformat.com/rss/"
+    }
   ]
 }
