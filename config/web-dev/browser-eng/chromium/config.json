@@ -36,11 +36,6 @@
       "feedUrl": "https://paul.kinlan.me/index.xml"
     },
     {
-      "name": "Paul Lewis",
-      "href": "https://aerotwist.com/",
-      "feedUrl": "https://aerotwist.com/blog/feed/"
-    },
-    {
       "name": "Jake Archibald",
       "href": "https://jakearchibald.com/",
       "feedUrl": "https://jakearchibald.com/posts.rss"
