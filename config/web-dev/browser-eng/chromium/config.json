@@ -16,9 +16,14 @@
   },
   "columns": [
     {
-      "name": "Chomium Blog",
+      "name": "Chromium Blog",
       "href": "https://blog.chromium.org/",
       "feedUrl": "https://blog.chromium.org/feeds/posts/default"
+    },
+    {
+      "name": "Web.dev",
+      "href": "https://web.dev",
+      "feedUrl": "https://web.dev/feed.xml"
     },
     {
       "name": "Chrome Releases",
@@ -31,14 +36,14 @@
       "feedUrl": "https://paul.kinlan.me/index.xml"
     },
     {
-      "name": "Paul Lewis",
-      "href": "https://aerotwist.com/",
-      "feedUrl": "https://aerotwist.com/blog/feed/"
-    },
-    {
       "name": "Jake Archibald",
       "href": "https://jakearchibald.com/",
       "feedUrl": "https://jakearchibald.com/posts.rss"
+    },
+    {
+      "surma": "Surma",
+      "href": "https://surma.dev",
+      "feedUrl": "https://surma.dev/index.xml"
     },
     {
       "name": "Web Fundamentals",
@@ -64,6 +69,21 @@
       "name": "Alex Russell (Medium)",
       "href": "https://medium.com/@slightlylate",
       "feedUrl": "https://medium.com/feed/@slightlylate"
+    },
+    {
+      "name": "Sam Thorogood",
+      "href": "https://whistlr.info/",
+      "feedUrl": "https://whistlr.info/rss.xml"
+    },
+    {
+      "name": "Thomas Steiner",
+      "href": "https://blog.tomayac.com/",
+      "feedUrl": "https://blog.tomayac.com/feed/feed.xml"
+    }, 
+    {
+      "name": "Jason Miller",
+      "href": "https://jasonformat.com",
+      "feedUrl": "https://jasonformat.com/rss/"
     }
   ]
 }
