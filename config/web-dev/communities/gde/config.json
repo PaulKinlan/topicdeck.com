@@ -96,11 +96,6 @@
       "feedUrl": "https://philna.sh/feed.xml"
     },
     {
-      "name": "Gokulakrishnan Kalaikovan",
-      "href": "https://gokulkrishh.github.io",
-      "feedUrl": "https://gokulkrishh.github.io/rss.xml"
-    },
-    {
       "name": "Jurgen Van de Moere",
       "href": "https://jvandemo.com",
       "feedUrl": "https://jvandemo.com/rss/"
@@ -201,11 +196,6 @@
       "feedUrl": "https://una.im/feed.xml"
     },
     {
-      "name": "Shidhin CR",
-      "href": "https://www.undefinednull.com",
-      "feedUrl": "https://www.undefinednull.com/atom.xml"
-    },
-    {
       "name": "Will Huang",
       "href": "https://blog.miniasp.com/",
       "feedUrl": "https://blog.miniasp.com/syndication.axd"
@@ -244,11 +234,6 @@
       "name": "Kenneth Rohde Christiansen",
       "href": "https://medium.com/@kennethrohde",
       "feedUrl": "https://medium.com/feed/@kennethrohde"
-    },
-    {
-      "name": "Fabian Gosebrink",
-      "href": "https://offering.solutions/blog/",
-      "feedUrl": "https://offering.solutions/blog/feed.xml"
     },
     {
       "name": "Felipe N. Moura",

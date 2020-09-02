@@ -9,7 +9,8 @@
     "gcp-build": "npm run build:copy-assets && npm run build:serviceworker",
     "validate": "node validate.js",
     "build": "npm run gcp-build",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "npm run validate"
   },
   "keywords": [
     "topicdeck"
@@ -20,6 +21,7 @@
   "author": "Paul Kinlan",
   "license": "Apache-2.0",
   "dependencies": {
+    "fast-xml-parser": "^3.17.4",
     "topicdeck": "^0.1.12"
   },
   "devDependencies": {

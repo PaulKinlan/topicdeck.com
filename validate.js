@@ -1,6 +1,8 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
 const path = require('path');
+const parser = require('fast-xml-parser');
+
 const { DepGraph, DepGraphCycleError } = require('dependency-graph');
 
 const validateFeeds = (feeds) => {
@@ -46,10 +48,17 @@ const validateFeeds = (feeds) => {
 const fetchFeed = (url) => {
   return fetch(url)
     .then(res => { 
-      console.log(`${url} - ${res.ok}`) 
+      console.log(`Fetched ${url} - ${res.ok}`);
+      return res.text();
+    })
+    .then(bodyText => {
+      console.log(`Validating - ${url}`)
+      const xml = parser.parse(bodyText, {}, true );
+      console.log(`Validating - OK ${url}`);
+      // It will error if not.
     })
     .catch(err => { 
-      console.error(`${url} - fail ${err}`) 
+      console.error(`${url} - fail ${err}`);
     });
 }
 
@@ -65,8 +74,8 @@ const validateUrls = (configs) => {
   }
 
   for (const feed of feeds) {
-    console.log('attempt', feed)
-    fetchFeed(feed)
+    console.log('attempt', feed);
+    fetchFeed(feed);
   }
 }
 
