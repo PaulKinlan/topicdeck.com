@@ -22,7 +22,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "fast-xml-parser": "^3.17.4",
-    "topicdeck": "^0.1.12"
+    "topicdeck": "^0.1.13"
   },
   "devDependencies": {
     "node-fetch": "^2.6.0"

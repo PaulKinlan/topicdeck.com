@@ -1,6 +1,6 @@
 {
   "title": "Chromium Dev",
-  "description": "The latest news and updates from the Google Chrome team", 
+  "description": "The latest news and updates from the Google Chrome team",
   "origin": "https://topicdeck.com/web-dev/browser-eng/chromium/",
   "feedUrl": "https://topicdeck.com/web-dev/browser-eng/chromium/all.rss",
   "theme": {
@@ -79,7 +79,7 @@
       "name": "Thomas Steiner",
       "href": "https://blog.tomayac.com/",
       "feedUrl": "https://blog.tomayac.com/feed/feed.xml"
-    }, 
+    },
     {
       "name": "Jason Miller",
       "href": "https://jasonformat.com",
