@@ -79,6 +79,24 @@ const validateUrls = (configs) => {
   }
 }
 
+const error = (msg) => {
+  console.error(msg);
+  process.exit(-1);
+}
+
+const validateColumns = (configs) => {
+  const configList = Array.from(configs.values());
+  const feeds = new Set();
+
+  for (const config of configList) {
+    for (const feed of config.columns) {
+      if ('name' in feed === false) error(`name not in ${feed.feedUrl}`);
+      if ('href' in feed === false) error(`href not in ${feed.feedUrl}`);
+      if ('feedUrl' in feed === false) error(`feedUrl not in ${feed}`);
+    }
+  }
+}
+
 const loadConfigs = (basePath) => {
   // Dynamically import the config objects
   const feedConfigs = [];
@@ -102,4 +120,5 @@ const loadConfigs = (basePath) => {
 
 const configs = loadConfigs(path.resolve('./config/'));
 validateFeeds(configs);
-validateUrls(configs); 
+validateUrls(configs);
+validateColumns(configs);
