@@ -25,6 +25,6 @@
     "topicdeck": "^0.1.13"
   },
   "devDependencies": {
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.7"
   }
 }
